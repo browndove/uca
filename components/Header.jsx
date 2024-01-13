@@ -16,12 +16,12 @@ const Header = () => {
 
     return (
         <>
-            <section className='px-10 py-7 bg-[#FFFFFF]'>
+            <section className='px-10  bg-[#FFFFFF] z-[990]'>
                 <div className='flex items-center justify-between'>
 
                     <div className='flex items-center'>
 
-                        <div className='ml-6 flex items-baseline'>
+                        {/* <div className='ml-6 flex items-baseline'>
                             <h1 className='text-[#59c953] text-[5.5rem] font-bold'>U</h1>
                             <span className='text-[#19604C] font-bold'>nique</span>
                         </div>
@@ -34,7 +34,7 @@ const Header = () => {
                         <div className='ml-6 flex items-baseline'>
                             <h1 className='text-[#59c953] text-[5.5rem] font-bold'>A</h1>
                             <span className='text-[#19604C] font-bold'>cademy</span>
-                        </div>
+                        </div> */}
 
                     </div>
 
@@ -50,8 +50,8 @@ const Header = () => {
                         <Naviigation onClick={stopPropagation}/>
                     </div>
 
-                    <div className="p-5 bg-[#D5F523] rounded-[2.5rem] fixed right-4" onClick={toggleMenu}>
-                        {isOpen ? <X size={30} fill="black" className="text-black" /> : <MenuIcon size={30} fill="black" className="text-black" />}
+                    <div className="p-5 bg-[#D5F523] rounded-[2.5rem] fixed top-4 right-4" onClick={toggleMenu}>
+                        {isOpen ? <X size={30} fill="black" className="text-black" /> : <MenuIcon size={30} fill="black" className="text-black " />}
                     </div>
 
                 </div>

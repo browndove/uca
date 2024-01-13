@@ -11,7 +11,7 @@ const Navigation = () => {
   };
 
   const handleMouseLeave = () => {
-    hideDropdownTimer.current = setTimeout(() => setActiveMainNav(null), 500);
+    hideDropdownTimer.current = setTimeout(() => setActiveMainNav(null), 4000);
   };
 
   return (
@@ -30,13 +30,13 @@ const Navigation = () => {
                 </a>
               </li>
               {activeMainNav === mainIndex && (
-                <div className='fixed top-[9.5rem] left-[15rem]  p-4'>
+                <div className='fixed top-[9.2rem] left-[15rem]  p-4'>
                   {/* Fixed container for subnavigation */}
                   <ul>
                     {mainNavItem.subNavs.map((subNavItem, subIndex) => (
                       <li
                         key={subIndex}
-                        className={`mb-10 ml-[4rem] font-light w-[250%] text-[1rem] gap-y-4 flex-col ${
+                        className={`mb-8 ml-[4rem] font-light w-[250%] text-[1rem] gap-y-4 flex-col ${
                           subIndex === 0 ? 'items-start' : subIndex === navigationData.length - 1 ? 'items-baseline' : 'items-center'
                         }`}
                       >
