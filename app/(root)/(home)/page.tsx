@@ -1,7 +1,6 @@
 import ScrollAnimationSection from '@/components/ScrollAnimationSection'
-import Image from 'next/image'
 import React from 'react'
-import trail from "@/public/images/trial.jpg"
+import HeaderxPara from '@/components/HeaderxPara'
 
 const page = () => {
   return (
@@ -11,6 +10,9 @@ const page = () => {
 
       <div className="bg-cover bg-center h-screen " style={{ backgroundImage: 'url("/images/trial.jpg")' }}>
       {/* Your content goes here */}
+      <div className=''>
+      <HeaderxPara title='OPEN' subtitle='for expansive ideas' para='We foster deep thinking and a passion for pursuing original ideas.' />
+      </div>
     </div>
     </div>
       </section>

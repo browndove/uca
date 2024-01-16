@@ -1,0 +1,8 @@
+.main{
+    width: 73vh;
+    height: 73vh;
+    opacity: 1!important;
+    transition: all .4s;
+    border-color: hsla(0,0%,100%,.5) rgba(0,0,0,0) hsla(0,0%,100%,.5) hsla(0,0%,100%,.5);
+    transition-delay: .3s;
+}
