@@ -15,11 +15,11 @@ const Navigation = () => {
   };
 
   return (
-    <nav className='py-10 text-[#0B523F] text-[1.4rem] relative'>
-      <ul className='flex flex-col'>
+    <nav className='py-10 text-[#0B523F] text-[1.4rem]  '>
+      <ul className='flex flex-col  '>
         {navigationData.map((mainNavItem, mainIndex) => (
           <div key={mainIndex} className='mb-12 relative'>
-            <div className={`flex `}>
+            <div className={`flex  `}>
               <li 
                 className='flex items-center flex-col ml-[5rem] text-right '
                 onMouseEnter={() => handleMouseEnter(mainIndex)}

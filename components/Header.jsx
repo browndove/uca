@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <>
-            <section className='px-10  bg-[#FFFFFF] z-[990]'>
+            <section className='px-10  bg-[#FFFFFF] z-[990]' style={{ zIndex: 99 }}>
                 <div className='flex items-center justify-between'>
 
                     <div className='flex items-center'>
